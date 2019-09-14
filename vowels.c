@@ -1,6 +1,7 @@
 #include<stdio.h>
  int main()
- { char a[100];
+ { // Program to count vowels,consonants,digits and spaces in given string.
+    char a[100];
     int i,vowel=0,cons=0,digits=0,space=0;
     printf("enter a string\n");
     gets(a);
